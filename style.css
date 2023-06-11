@@ -1,0 +1,85 @@
+.top{
+    height: 350px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(165, 34, 121);
+    color:white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.top .subtext{
+    display: flex;
+    flex-direction: column;
+    align-self:flex-end;
+    font-style:italic;
+    margin-right: 8px;
+}
+
+.top h1{
+    font-size: 48px;
+    height: 200px;
+    display:flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+.info .text{
+    color:white;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    height: 330px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.first-four{
+    height:450px;
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.second-three{
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height:450px;
+    display: flex;
+    width: 900px;
+}
+
+.third-two{
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height:450px;
+    display: flex;
+    width: 700px;
+}
+
+
+
+.img-holder{
+    margin-top:0;
+}
+
